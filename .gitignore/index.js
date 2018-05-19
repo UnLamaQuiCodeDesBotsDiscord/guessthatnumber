@@ -20,7 +20,7 @@ bot1.on('message', function(message){
 
 		party_launch = true;
 
-		number_random = Math.floor(Math.random() * (3-0) + 0)
+		number_random = Math.floor(Math.random() * (5000-0) + 0)
 
 		console.log(number_random);
 	}
