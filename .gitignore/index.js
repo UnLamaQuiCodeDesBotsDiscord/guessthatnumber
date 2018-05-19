@@ -16,11 +16,11 @@ bot1.on('message', function(message){
 
 	if(message.content == "g.start"){
 
-		message.reply("Partie Lancé (Le nombre ce trouve entre 0 et 5000) !")
+		message.reply("Partie Lancé (Le nombre ce trouve entre 0 et 500000) !")
 
 		party_launch = true;
 
-		number_random = Math.floor(Math.random() * (5000-0) + 0)
+		number_random = Math.floor(Math.random() * (500000-0) + 0)
 
 		console.log(number_random);
 	}
