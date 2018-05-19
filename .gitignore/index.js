@@ -9,8 +9,6 @@ var party_launch = false;
 
 bot1.on('ready', function(){
 
-	bot.user.setGame("Guest The number g.start");
-
 	console.log('conected')
 })
 
